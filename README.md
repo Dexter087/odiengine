@@ -230,28 +230,3 @@ Fix: update column mapping in odie/loader.py (ODIE tries multiple variants, but 
 ---------------------------------------------
 EM-DAT: The International Disaster Database — CRED / UCLouvain.
 Website: https://www.emdat.be
-
-
-18) Notes for GitHub
---------------------
-- Avoid uploading the full .xlsx dataset unless allowed.
-  Prefer keeping it local and passing the path via --xlsx.
-- Keep generated outputs (reports/exports) out of version control using .gitignore
-
-Suggested .gitignore:
-  __pycache__/
-  *.pyc
-  .venv/
-  venv/
-  *.xlsx
-  *.docx
-  *.pdf
-  *.csv
-  *.json
-  .DS_Store
-  Thumbs.db
-  .vscode/
-
-19) License
------------
-
