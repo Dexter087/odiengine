@@ -83,11 +83,6 @@ From the project root (folder containing `odie/`):
 python -m odie.cli --xlsx "PATH_TO_DATASET.xlsx"
 ```
 
-**Example (Windows):**
-```bash
-python -m odie.cli --xlsx "C:\Users\Daksh\Downloads\public_emdat_custom_request.xlsx"
-```
-
 Expected startup:
 ```
 Loading dataset...
