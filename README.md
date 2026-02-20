@@ -1,7 +1,7 @@
 # ODIE — Offline Disaster Intelligence Engine (CLI)
 
 **Author:** Daksha Mothukuri  
-**Course:** Programming & Data Structures (DSA / PDS)  
+**Course:** Programming & Data Structures (DSA)  
 **Project:** Offline CLI data exploration engine for an EM-DAT Excel export
 
 ODIE is a **command-line tool** that loads a **non-updating EM-DAT `.xlsx` dataset** (offline), lets you explore it interactively using **filters** and an advanced **`where` query language**, and generates outputs like **DOCX reports (with plots)** and **CSV/JSON exports**.
