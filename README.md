@@ -123,19 +123,13 @@ filter year 2000 2020
 
 ---
 
-## Advanced Filtering: `where` (IMPORTANT)
+## Advanced Filtering: `where`
 
-✅ **Do NOT wrap the full expression in quotes**.  
-✅ Use lowercase boolean operators: `and`, `or`, `not`.
+Usage lowercase boolean operators: `and`, `or`, `not`.
 
-**Works:**
+**Example:**
 ```text
 where country == 'India' and disaster_type == 'Flood' and start_year >= 2000 and start_year <= 2020
-```
-
-**Wrong (causes: Expected IDENT, got STRING):**
-```text
-where "country == 'India' and disaster_type == 'Flood'"
 ```
 
 Supported operators (typical):
